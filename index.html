@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Zone</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body class="container">
+    <header>
+        <nav class="navbar">
+            <div class="navbarLogo">
+                <img src="./img/navLogo.svg" alt="">
+            </div>
+            <ul class="navCollection">
+                <li class="navItem">
+                    <a href="#" class="navLink">
+                        <span>Breakfast</span>
+                    </a>
+                </li>
+                <li class="navItem">
+                    <a href="#" class="navLink">
+                        <span>Lunch</span>
+                    </a>
+                </li>
+                <li class="navItem">
+                    <a href="#" class="navLink">
+                        <span>Dinner</span>
+                    </a>
+                </li>
+                <img src="./img/navIcon.svg" alt="">
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="foodZona">
+            <div class="foodZonaImg">
+                <img src="./img/Food Zone.svg" alt="">
+                <p>----- Norem ipsum dolor sit amet, <span style="margin-left: 31px;">consectetur.</span></p>
+            </div>
+            <div class="eatImg">
+                <img id="threeImg" src="./img/843069751.svg" alt="">
+            </div>
+
+            <div style="position: relative;">
+                <div onmouseover="changeImg('./img/843069751.svg')" onmouseout="resetImg()" class="luchCard">
+                    
+                </div>
+
+                <div onmouseover="changeImg('./img/843069749.svg')" onmouseout="resetImg()" class="luchCard">
+
+                </div>
+
+                <div onmouseover="changeImg('./img/843069750.svg')" onmouseout="resetImg()" class="luchCard">
+
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+    <script src="./js/app.js"></script>
+</body>
+</html>
