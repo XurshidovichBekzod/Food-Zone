@@ -80,6 +80,9 @@ li {
 .luchCard {
     width: 400px;
     height: 100px;
+    display: flex;
+    align-items: center;
+    gap: 25px;
     border: 1px solid white;
     border-radius: 60px 0px 0 60px;
     margin-top: -170px;
@@ -88,6 +91,7 @@ li {
     left: 10px; /* markazga suramiz */
      transition: 0.3s ease;
      cursor: pointer;
+     padding: 20px 10px;
 }
 
 .luchCard:nth-child(1) {
@@ -109,4 +113,8 @@ li {
     width: 440px;
     margin-left: -40px;
     background-color: #fe7f26;
+    color: white;
+}
+.luchCard p{
+    font-size: 12px;
 }
